@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    font-family: Quicksand, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+}
+
+#time{
+    font-size: 8rem;
+}
+
+@media(max-width: 700px){
+    #time{
+        font-size: 6rem;
+    }
+}
